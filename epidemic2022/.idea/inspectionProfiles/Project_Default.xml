@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="sphinx_rtd_theme" />
+            <item index="1" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="2" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="3" class="java.lang.String" itemvalue="booleano" />
+            <item index="4" class="java.lang.String" itemvalue="Django" />
+            <item index="5" class="java.lang.String" itemvalue="anyjson" />
+            <item index="6" class="java.lang.String" itemvalue="GDAL" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="osgeo" />
+            <item index="9" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E262" />
+          <option value="E261" />
+          <option value="E225" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="meiduoSHOP.celery_tasks.sms.tasks.*" />
+          <option value="meiduoSHOP.celery_tasks.sms.main" />
+          <option value="meiduoSHOP.meiduoSHOP.apps.verifications.views.*" />
+          <option value="meiduoSHOP.meiduoSHOP.apps.verifications.apps.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

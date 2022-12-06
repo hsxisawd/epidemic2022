@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypidouban"
+
+[packages]
+django = "*"
+mysqlclient = {version = "*", index = "pypidouban"}
+django-cors-headers = {version = "*", index = "pypidouban"}
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
